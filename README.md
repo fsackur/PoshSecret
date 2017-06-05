@@ -31,11 +31,14 @@ I built this at work. I have dropped the commit history to avoid exposing intern
 
 # Usage:
 
-    Add-PoshSecret -Username "CONTOSO\Bob" -Password "hunter2" -Name "PVScript#00034"
+    Save-PoshSecret -Username "CONTOSO\Bob" -Password "hunter2" -Name "PVScript#00034"
   Stores a credential that can be retrieved using the identifier "PVScript#00034"
 
     Get-PoshSecret -Username "CONTOSO\bob" -Resource "PVScript#00034" -AsPlaintext
   Gets the credential with the resource identifier "PVScript#00034" and username "CONTOSO\bob". Password will be visible.
   
   You need to run the Get command as the same user that ran the Add command!
+
+#Contributing
+Contributions are welcome! I do email and will receive a notification of any pull request. Ensure your email is set in your git client. Alternatively, head over to slack channel get-psuguk.slack.com, where my handle is @freddie_sackur
 
