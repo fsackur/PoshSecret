@@ -39,6 +39,13 @@ I built this at work. I have dropped the commit history to avoid exposing intern
   
   You need to run the Get command as the same user that ran the Add command!
 
+  For more detailed help:
+
+    Get-Help Save-PoshSecret -Full
+    Get-Help Get-PoshSecret -Full
+    Get-Help Remove-PoshSecret -Full
+    Get-Help ConvertTo-Plaintext -Full
+
 #Contributing
-Contributions are welcome! I do email and will receive a notification of any pull request. Ensure your email is set in your git client. Alternatively, head over to slack channel get-psuguk.slack.com, where my handle is @freddie_sackur
+Contributions are welcome! I do email, and will receive a notification of any pull request. Ensure your email is set in your git client. Alternatively, head over to slack channel get-psuguk.slack.com, where my handle is @freddie_sackur
 
